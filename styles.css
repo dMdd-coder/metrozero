@@ -1,0 +1,136 @@
+body {
+  color: #555;
+  margin: 0;
+  font-family: Arial;
+}
+
+#header button {
+  color: white;
+  background-color: #008000;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  outline: none;
+}
+
+#header {
+  background-color: #008000;
+  height: 100px;
+  line-height: 100px;
+}
+
+#header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header button:hover {
+  color: #222;
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+  margin-right: 50px;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#chart_gantt {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#spazio {
+  height: 100px;
+}
+
+#chart_gantt svg g:nth-child(2) rect {
+  fill: transparent;
+}
+
+#chart_gantt svg g:nth-child(3) {
+  /*rect:nth-child(odd) {fill: rgba(0,0,0,.1);} // Rows Odd
+        rect:nth-child(even) {fill: transparent;}*/
+}
+
+#chart_gantt svg g:nth-child(3) text {
+  fill: #787878;
+  font-family: 'Arial' !important;
+  font-weight: normal !important;
+}
+
+#chart_gantt svg g:nth-child(3) line {
+  stroke: transparent;
+  stroke-width: 0;
+}
+
+#chart_gantt svg g:nth-child(7) rect {
+  fill: #6cca6c;
+}
+
+#chart_gantt svg g:nth-child(8) path {
+  fill: rgba(0, 0, 0, 0.4);
+}
+
+#chart_gantt svg g:nth-child(9) text {
+  fill: #787878;
+}
+
+#chart_gantt svg g:nth-child(10) rect {
+  stroke: #008000;
+}
+
+#chart_gantt svg g:nth-child(10) text {
+  fill: #787878;
+  /*font-family: 'Arial' !important;*/
+}
+
+#chart_gantt svg g:nth-child(10) text:nth-child(2) {
+  fill: darkgreen;
+  font-weight: bold;
+}
+
+#chart_timeline {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#chart_timeline svg g:nth-child(2) rect {
+  fill: transparent;
+  stroke: transparent;
+}
+
+#chart_timeline svg g:nth-child(3) text {
+  fill: #636363;
+  font-family: 'Arial' !important;
+  font-weight: normal !important;
+}
+
+#chart_timeline svg g:nth-child(5) text {
+  fill: #00800000;
+  font-family: 'Arial' !important;
+  font-weight: normal !important;
+}
+/*# sourceMappingURL=stylesND.css.map */
